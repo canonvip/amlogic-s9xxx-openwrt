@@ -6334,7 +6334,7 @@ CONFIG_PACKAGE_proto-bonding=y
 # CONFIG_SAMBA4_SERVER_VFS is not set
 # CONFIG_SAMBA4_SERVER_VFSX is not set
 # CONFIG_SAMBA4_SERVER_AD_DC is not set
-CONFIG_PACKAGE_samba4-utils is not set
+# CONFIG_PACKAGE_samba4-utils is not set
 # CONFIG_PACKAGE_samplicator is not set
 # CONFIG_PACKAGE_scapy is not set
 # CONFIG_PACKAGE_sctp-tools is not set
