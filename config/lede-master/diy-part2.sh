@@ -31,7 +31,10 @@ sed -i 's/192.168.1.1/192.168.31.4/g' package/base-files/files/bin/config_genera
 # Add luci-app-amlogic
 svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/luci-app-amlogic
 
-svn co https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/apps/luci-app-openclash
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-openclash package/apps/luci-app-openclash
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-fileassistant package/apps/luci-app-fileassistant
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-filebrowser package/apps/luci-app-filebrowser
+
 
 # Fix runc version error
 # rm -rf ./feeds/packages/utils/runc/Makefile
